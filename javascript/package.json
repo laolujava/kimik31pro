@@ -1,0 +1,19 @@
+{
+  "name": "api-tutorial-javascript",
+  "version": "1.0.0",
+  "description": "JavaScript API tutorial examples",
+  "type": "module",
+  "scripts": {
+    "basic": "node basic_request.js",
+    "streaming": "node streaming_request.js",
+    "error": "node error_handling.js",
+    "token": "node token_usage.js"
+  },
+  "keywords": ["api", "tutorial", "examples"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  }
+}
